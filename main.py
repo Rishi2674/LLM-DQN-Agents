@@ -1,7 +1,23 @@
 import torch
-print("PyTorch version:", torch.__version__)
-print("CUDA available:", torch.cuda.is_available())
-print("CUDA version:", torch.version.cuda)
-print("Number of GPUs available:", torch.cuda.device_count())
-if torch.cuda.is_available():
-    print("GPU Name:", torch.cuda.get_device_name(0))
+from envs.maze_env import MazeEnvironment
+from models.dqn_model import DQNModel
+from train_model import run_training_loop
+
+if __name__ == "__main__":
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    maze = [
+        [1,1,1,1,1,1,1,1,1,1],
+        [1,1,0,0,0,0,0,0,0,1],      
+        [1,0,0,0,0,0,0,0,0,1],
+        [1,0,0,0,0,0,1,0,1,1],
+        [1,0,1,0,0,1,1,0,0,1],
+        [1,0,1,0,0,0,0,0,1,1],
+        [1,1,0,0,0,0,0,0,1,1],
+        [1,0,0,1,0,1,0,0,0,1],
+        [1,1,0,0,0,1,0,1,0,1],
+        [1,1,1,1,1,1,1,1,1,1],
+    ]
+    maze_env = MazeEnvironment(maze=maze, maze_size=10, start=(1,6), destination=(8,8))
+    dqn_model = DQNModel(state_size=100, action_size=5, maze=maze_env, device=device)
+    print("DQN Model initialized and ready for training/testing.")
+    run_training_loop(dqn_model, maze_env, num_episodes=3000, max_steps=100, batch_size=32, target_update_freq=10)
