@@ -11,4 +11,4 @@ def ollama_chat(model: str, prompt: str):
     else:
         return f"Error: {response.status_code}, {response.text}"
 
-print(ollama_chat("llama2", "Tell me about black holes."))
+print(ollama_chat("phi3", "Tell me about black holes."))
