@@ -4,19 +4,48 @@ from utils.extract_local_context import extract_local_context, represent_local_c
 import numpy as np
 from dotenv import load_dotenv
 import os
+import gc
 
 load_dotenv()
 
 ACCESS_TOKEN = os.getenv('ACCESS_TOKEN')
 
 class LLMExperienceGenerator:
-    def __init__(self, model_name="meta-llama/Llama-2-7b-hf", device='cpu'):
+    def __init__(self, model_name="meta-llama/Llama-2-7b-hf", device='cuda'):
+        print("Before model loading:")
+        print(f"Allocated: {torch.cuda.memory_allocated() / 1024 ** 2:.2f} MB")
+        print(f"Cached: {torch.cuda.memory_reserved() / 1024 ** 2:.2f} MB")
+        # for obj in gc.get_objects():
+        #     if isinstance(obj, torch.nn.Module):
+        #         print(f"Model: {type(obj).__name__}, Device: {next(obj.parameters()).device}")
+
+        total_mem = 0
+        for obj in gc.get_objects():
+            if isinstance(obj, torch.Tensor) and obj.is_cuda:
+                mem = obj.element_size() * obj.numel() / (1024 ** 2)  # Convert bytes to MB
+                total_mem += mem
+                print(f"Tensor: {obj.shape}, Device: {obj.device}, Memory: {mem:.2f} MB")
+
+        print(f"Total Tensor Memory Usage: {total_mem:.2f} MB")
         self.tokenizer = AutoTokenizer.from_pretrained(model_name, token=ACCESS_TOKEN, legacy = True)
         self.llm = AutoModelForCausalLM.from_pretrained(model_name, token=ACCESS_TOKEN)
-        self.device = device
+        self.device = self.device = torch.device(device if torch.cuda.is_available() else "cpu")
+        self.llm.to(self.device)
+
+        print("After model loading:")
+        print(f"Allocated: {torch.cuda.memory_allocated() / 1024 ** 2:.2f} MB")
+        print(f"Cached: {torch.cuda.memory_reserved() / 1024 ** 2:.2f} MB")
+        print(f"Model is on: {next(self.llm.parameters()).device}")
+
 
     def generate_experience(self, prompt):
-        inputs = self.tokenizer(prompt, return_tensors="pt").to(self.device)
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        # print(f"Allocated: {torch.cuda.memory_allocated() / 1024 ** 2:.2f} MB")
+        # print(f"Cached: {torch.cuda.memory_reserved() / 1024 ** 2:.2f} MB")
+        torch.cuda.empty_cache()
+        torch.cuda.memory_allocated()
+        self.llm.to(device)
+        inputs = self.tokenizer(prompt, return_tensors="pt").to(device)
         outputs = self.llm.generate(**inputs, do_sample=True, max_length=150) # Reduce max_length since its generating less data now
         response = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
         return response
@@ -60,7 +89,12 @@ class LLMExperienceGenerator:
         Returns:
             str: A prompt to send to the LLM.
         """
-        agent_position = self.decode_state(state)
+        agent_position = self.decode_state(str(state))
+
+
+        maze = np.array(maze)
+        # print("Maze:", maze)
+
         local_context = extract_local_context(maze, agent_position)
         local_context_str = represent_local_context(local_context)
 
