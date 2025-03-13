@@ -1,6 +1,7 @@
 import torch
 import gc
 from transformers import AutoModel
+from transformers import cached_path
 
 
 print("PyTorch version:", torch.__version__)
@@ -47,3 +48,6 @@ import sys
 
 for name, size in sorted(((name, sys.getsizeof(value)) for name, value in globals().items()), key=lambda x: -x[1])[:10]:
     print(f"{name}: {size / (1024**2):.2f} MB")
+
+
+print(cached_path(''))
