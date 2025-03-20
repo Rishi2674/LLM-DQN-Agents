@@ -3,8 +3,8 @@ from utils.logging_utils import log_training_data
 
 def run_training_loop(dqn_model, maze_env, num_episodes, max_steps, batch_size, target_update_freq):
     total_rewards = []
-    file_path = "training_log_std.csv"
-    model_save_path = "model_final_trained_std.pt"  # Path to save the model
+    file_path = "training_log.csv"
+    model_save_path = "model_final_trained.pt"  # Path to save the model
     best_reward = -float("inf")
     destination_count = 0
 

@@ -21,10 +21,10 @@ if __name__ == "__main__":
         [1,1,1,1,1,1,1,1,1,1],
     ]
     maze_env = MazeEnvironment(maze=maze, maze_size=10, start=(1,6), destination=(8,8))
-    dqn_model = DQNModel(state_size=100, action_size=5, maze=maze_env, device=device)
-    # dqn_model = DQN_LLM_Model(state_size=100,action_size=5,maze=maze_env,device=device )
+    # dqn_model = DQNModel(state_size=100, action_size=5, maze=maze_env, device=device)
+    dqn_model = DQN_LLM_Model(state_size=100,action_size=5,maze=maze_env,device=device )
     start_time = time()
     print("DQN Model initialized and ready for training/testing.")
-    run_training_loop(dqn_model, maze_env, num_episodes=1500, max_steps=100, batch_size=32, target_update_freq=10)
+    run_training_loop(dqn_model, maze_env, num_episodes=15, max_steps=100, batch_size=32, target_update_freq=10)
     end_time = time()
     print("Time taken for training: ", end_time-start_time)

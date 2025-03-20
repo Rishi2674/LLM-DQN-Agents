@@ -5,6 +5,8 @@ import numpy as np
 from dotenv import load_dotenv
 import os
 import re
+from typing import Optional, List
+import json
 
 load_dotenv()
 
@@ -28,6 +30,7 @@ class LLMExperienceGenerator:
 
         # print(f"Total Tensor Memory Usage: {total_mem:.2f} MB")
         torch.cuda.empty_cache()
+        print(model_name)
         self.tokenizer = AutoTokenizer.from_pretrained(model_name, token=ACCESS_TOKEN, legacy = True)
         self.llm = AutoModelForCausalLM.from_pretrained(model_name, token=ACCESS_TOKEN, load_in_4bit = True, device_map = "auto")
         # for obj in torch.cuda.memory_allocated(), torch.cuda.memory_reserved():
@@ -51,44 +54,45 @@ class LLMExperienceGenerator:
         torch.cuda.memory_allocated()
         # self.llm.to(device)
         inputs = self.tokenizer(prompt, return_tensors="pt").to(device)
-        outputs = self.llm.generate(**inputs, do_sample=True, max_new_tokens = 10, temperature=0.1) # Reduce max_length since its generating less data now
+        outputs = self.llm.generate(**inputs, do_sample=False, max_new_tokens = 50, temperature=0.1) # Reduce max_length since its generating less data now
         response = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
         # print("LLM response: ", response)
         return response
 
-    def extract_context_value(self,response):
-        """
-        Extracts the context value from the LLM response.
+    def extract_context_vector(llm_response: str, expected_length: int = 5) -> Optional[List[float]]:
+        # Attempt JSON parsing
+        try:
+            data = json.loads(llm_response.strip())
+            if "context_values" in data:
+                values = data["context_values"]
+                if isinstance(values, list) and len(values) == expected_length:
+                    # Ensure all values are floats and clamp between -1 and 1
+                    return [max(-1, min(1, float(v))) for v in values]
+        except Exception:
+            pass  # Fall back to regex extraction if JSON parsing fails
 
-        Args:
-            response (str): The response from the LLM.
-
-        Returns:
-            float: The context value as a floating-point number.
-                Returns None if parsing fails.
-        """
-        match = re.search(r'Context Value:\s*(-?\d+(\.\d+)?)', response)
+        # Fallback: use regex to find JSON-like pattern
+        regex_pattern = r'\{"context_values":\s*\[([^\]]+)\]\}'
+        match = re.search(regex_pattern, llm_response)
         if match:
-            return float(match.group(1))  # Extract and convert to float
-        else:
-            # print("⚠️ Error: Context value +0 found in LLM response")
-            return None  # Handle missing values gracefully
+            values_str = match.group(1)
+            try:
+                # Split by commas and convert to float
+                values = [float(x.strip()) for x in values_str.split(",")]
+                if len(values) == expected_length:
+                    return [max(-1, min(1, v)) for v in values]
+            except Exception as e:
+                print("Error converting extracted values to floats:", e)
+                return None
+
+        # If extraction fails, return None
+        print("Context vector extraction failed. LLM response was:")
+        print(llm_response)
+        return None
+
 
     def create_prompt(self, state, action, reward, next_state, done, maze):
-        """
-        Creates a prompt for the LLM focusing on generating an informed context value.
 
-        Args:
-            state (str): Current state representation.
-            action (int): Action taken.
-            reward (float): Reward received.
-            next_state (str): Next state representation.
-            done (bool): Whether the episode is done.
-            maze (np.array): The maze environment.
-
-        Returns:
-            str: A prompt to send to the LLM.
-        """
         agent_position = self.decode_state(str(state))
 
 
@@ -97,44 +101,61 @@ class LLMExperienceGenerator:
 
         local_context = extract_local_context(maze, agent_position)
         local_context_str = represent_local_context(local_context)
-        # print(f"Local context for agent at position: {agent_position}")
-        # print(local_context_str)
 
-        # prompt = f"Local Context:\n{local_context_str}\n"
-        # prompt += f"State: {state}\n"
-        # prompt += f"Action: {action}\n"
-        # prompt += f"Reward: {reward}\n"
-        # prompt += f"Next State: {next_state}\n"
-        # prompt += f"Done: {done}\n"
-        # prompt += "Based on this information, provide a context value that can be used to improve the Q-value estimation."
-        # prompt += "The context value should help refine the action selection process."  # Added context about the role of the context value
-        # prompt += " The valid value of the context value should only be between -1 and 1"
-        # prompt += " Ensure that you the context value generated by the LLM takes into consideration of the local and global maze context"
-        # prompt += "Format: Context Value: [value]"
-        prompt = f"""
-                Local Context: {local_context_str}
-                State: {state}
-                Action: {action}
-                Reward: {reward}
-                Next State: {next_state}
-                Done: {done}
-                
-                The Q-value of an action represents the expected future reward. However, local and global maze contexts can modify this estimate. Consider the following factors:
-                1. Local Maze Structure: The arrangement of obstacles (represented by 1's) and clear paths (represented by 0's) in the provided grid indicates how navigable the immediate area is.
-                2. Global Maze Influence: Although not fully detailed here, assume that the overall maze layout impacts the effectiveness of an action. For instance, a clear local context might be less advantageous if it leads to a dead end globally.
-                3. Reward Signal: The immediate reward indicates the benefit (or cost) of the action taken.
-                4. State Transition: The change from the current state to the next state can signal progress toward a goal or potential pitfalls.
-                
-                Using these factors, generate a single numerical "context value" that adjusts the Q-value estimation. This value should reflect how favorable or unfavorable the combined local and global contexts are for the current action, where:
-                - -1 means highly unfavorable,
-                - 0 means neutral, and
-                - 1 means highly favorable.
-                
-                Using these factors, generate a single numerical "context value" that adjusts the Q-value estimation. The output should be exactly in this format:
+        # prompt = f"""
+        #         Local Context: {local_context_str}
+        #         State: {state}
+        #         Action: {action}
+        #         Reward: {reward}
+        #         Next State: {next_state}
+        #         Done: {done}
+        #
+        #         The Q-value of an action represents the expected future reward. However, local and global maze contexts can modify this estimate. Consider the following factors:
+        #         1. Local Maze Structure: The arrangement of obstacles (represented by 1's) and clear paths (represented by 0's) in the provided grid indicates how navigable the immediate area is.
+        #         2. Global Maze Influence: Although not fully detailed here, assume that the overall maze layout impacts the effectiveness of an action. For instance, a clear local context might be less advantageous if it leads to a dead end globally.
+        #         3. Reward Signal: The immediate reward indicates the benefit (or cost) of the action taken.
+        #         4. State Transition: The change from the current state to the next state can signal progress toward a goal or potential pitfalls.
+        #
+        #         Using these factors, generate a single numerical "context value" that adjusts the Q-value estimation. This value should reflect how favorable or unfavorable the combined local and global contexts are for the current action, where:
+        #         - -1 means highly unfavorable,
+        #         - 0 means neutral, and
+        #         - 1 means highly favorable.
+        #
+        #         Using these factors, generate a single numerical "context value" that adjusts the Q-value estimation. The output should be exactly in this format:
+        #
+        #         Context Value: [value]
+        #         Do not add any explanations, commentary, or extra text. Only return the value in the specified format.
+        #         """
 
-                Context Value: [value]
-                Do not add any explanations, commentary, or extra text. Only return the value in the specified format.
-                """
+
+        prompt = f"""[INST]
+            Generate a context vector based on this RL environment analysis:
+            
+            Local Context (3x3 grid):
+            111
+            000
+            000
+            - 0 = clear path, 1 = obstacle
+            - Agent is at center
+            
+            State: {state}
+            Action Taken: {action}
+            Reward: {reward}
+            Next State: {next_state}
+            Done: {done}
+            
+            Action Space Context:
+            - Index 0: Reserved (0.0)
+            - Index 1: Move right (value -1 to 1)
+            - Index 2: Move down (value -1 to 1)
+            - Index 3: Move left (value -1 to 1)
+            - Index 4: Move up (value -1 to 1)
+            
+            Task: Output ONLY a JSON object with context values for each action index.
+            Strict Format: {{"context_values": [v0, v1, v2, v3, v4]}}
+            Do NOT include any other text or explanation. Only valid JSON.
+            [/INST]"""
+
 
         return prompt
 
