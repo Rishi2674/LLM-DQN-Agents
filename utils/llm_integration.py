@@ -59,7 +59,7 @@ class LLMExperienceGenerator:
         # print("LLM response: ", response)
         return response
 
-    def extract_context_vector(llm_response: str, expected_length: int = 5) -> Optional[List[float]]:
+    def extract_context_vector(self,llm_response: str, expected_length: int = 5) -> Optional[List[float]]:
         # Attempt JSON parsing
         try:
             data = json.loads(llm_response.strip())
@@ -129,31 +129,33 @@ class LLMExperienceGenerator:
 
 
         prompt = f"""[INST]
-            Generate a context vector based on this RL environment analysis:
-            
-            Local Context (3x3 grid):
-            111
-            000
-            000
-            - 0 = clear path, 1 = obstacle
-            - Agent is at center
-            
+            Local Context: {local_context_str}
             State: {state}
-            Action Taken: {action}
+            Action: {action}
             Reward: {reward}
             Next State: {next_state}
             Done: {done}
             
-            Action Space Context:
-            - Index 0: Reserved (0.0)
-            - Index 1: Move right (value -1 to 1)
-            - Index 2: Move down (value -1 to 1)
-            - Index 3: Move left (value -1 to 1)
-            - Index 4: Move up (value -1 to 1)
+            The Q-value of an action represents the expected future reward. However, local and global maze contexts can modify this estimate. Consider the following factors:
+            1. Local Maze Structure: The arrangement of obstacles (represented by 1's) and clear paths (represented by 0's) in the provided grid indicates how navigable the immediate area is.
+            2. Global Maze Influence: Although not fully detailed here, assume that the overall maze layout impacts the effectiveness of an action. For instance, a clear local context might be less advantageous if it leads to a dead end globally.
+            3. Reward Signal: The immediate reward indicates the benefit (or cost) of the action taken.
+            4. State Transition: The change from the current state to the next state can signal progress toward a goal or potential pitfalls.
             
-            Task: Output ONLY a JSON object with context values for each action index.
-            Strict Format: {{"context_values": [v0, v1, v2, v3, v4]}}
-            Do NOT include any other text or explanation. Only valid JSON.
+            Using these factors, generate a context vector that adjusts the Q-value estimation for each action.
+            Your output must be **strictly** in the following JSON format:
+            
+            {{"context_values": [v1, v2, v3, v4]}}
+            
+            Where:
+            - `v1` corresponds to moving **right**.
+            - `v2` corresponds to moving **down**.
+            - `v3` corresponds to moving **left**.
+            - `v4` corresponds to moving **up**.
+            
+            Each value must be a decimal between **-1 and 1**.  
+            Do not include explanations or additional text. Only return the JSON object in the specified format.
+            
             [/INST]"""
 
 

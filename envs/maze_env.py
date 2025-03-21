@@ -19,16 +19,16 @@ class MazeEnvironment:
         self.steps += 1
         row, col = self.state
         
-        if action == 1:  # Right
+        if action == 0:  # Right
             new_col = col + 1
             new_row = row
-        elif action == 2:  # Down
+        elif action == 1:  # Down
             new_row = row + 1
             new_col = col
-        elif action == 3:  # Left
+        elif action == 2:  # Left
             new_col = col - 1
             new_row = row
-        elif action == 4:  # Up
+        elif action == 3:  # Up
             new_row = row - 1
             new_col = col
         else:  # No action or invalid action
