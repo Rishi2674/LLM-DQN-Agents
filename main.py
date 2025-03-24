@@ -25,6 +25,6 @@ if __name__ == "__main__":
     dqn_model = DQN_LLM_Model(state_size=100,action_size=4,maze=maze_env,device=device )
     start_time = time()
     print("DQN Model initialized and ready for training/testing.")
-    run_training_loop(dqn_model, maze_env, num_episodes=15, max_steps=100, batch_size=32, target_update_freq=10)
+    run_training_loop(dqn_model, maze_env, num_episodes=1500, max_steps=100, batch_size=16, target_update_freq=10)
     end_time = time()
     print("Time taken for training: ", end_time-start_time)

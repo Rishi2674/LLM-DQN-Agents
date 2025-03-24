@@ -4,7 +4,7 @@ from models.neural_network import DQN
 import torch
 from torch import nn
 import numpy as np
-from utils.llm_integration import LLMExperienceGenerator
+from utils.llm_integration import LLMExperienceGenerator,extract_context_vector
 
 
 class DQN_LLM_Model:
@@ -97,7 +97,7 @@ class DQN_LLM_Model:
             prompt = self.llm_generator.create_prompt(state, action, reward, next_state, done, self.maze.maze)
             llm_response = self.llm_generator.generate_experience(prompt)
             print("LLM response: ", llm_response)
-            context_vector = self.llm_generator.extract_context_vector(llm_response)
+            context_vector = extract_context_vector(llm_response)
             print("context vector:", context_vector)
 
             # If extraction fails, default to a zero vector of appropriate size
