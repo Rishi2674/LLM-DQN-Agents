@@ -96,9 +96,9 @@ class DQN_LLM_Model:
             # Generate prompt and get LLM response for context vector
             prompt = self.llm_generator.create_prompt(state, action, reward, next_state, done, self.maze.maze)
             llm_response = self.llm_generator.generate_experience(prompt)
-            print("LLM response: ", llm_response)
+            # print("LLM response: ", llm_response)
             context_vector = extract_context_vector(llm_response)
-            print("context vector:", context_vector)
+            # print("context vector:", context_vector)
 
             # If extraction fails, default to a zero vector of appropriate size
             if context_vector is None:
