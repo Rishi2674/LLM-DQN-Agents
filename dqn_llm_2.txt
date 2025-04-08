@@ -1,0 +1,2613 @@
+mistralai/Mistral-7B-Instruct-v0.3
+Allocated: 4286.65 MB
+Cached: 4306.00 MB
+DQN Model initialized and ready for training/testing.
+Episode 1: Path: [(1, 6), (1, 7), (1, 8), (1, 9)]
+Total Reward: -0.44999999999999996, Steps: 3, Avg TD Error: 0.0 
+
+New best reward -0.44999999999999996 achieved. Model saved at model_final_trained_llm_2.pt.
+Episode 2: Path: [(1, 6), (2, 6), (2, 5), (3, 5), (3, 4), (3, 3), (3, 4), (3, 5), (3, 4), (2, 4), (2, 5), (1, 5), (2, 5), (2, 6), (2, 5), (2, 4), (2, 3), (2, 2), (1, 2), (1, 1)]
+Total Reward: -0.6599999999999998, Steps: 19, Avg TD Error: 0.06169016031842483 
+
+Episode 3: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.17738912999629974 
+
+Episode 4: Path: [(1, 6), (1, 7), (1, 6), (1, 5), (2, 5), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.9, Steps: 7, Avg TD Error: 0.17105661119733537 
+
+Episode 5: Path: [(1, 6), (1, 7), (1, 8), (1, 7), (1, 6), (0, 6)]
+Total Reward: -0.93, Steps: 5, Avg TD Error: 0.1492403656244278 
+
+Episode 6: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.15557485073804855 
+
+Episode 7: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.15586811304092407 
+
+Episode 8: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.14650469521681467 
+
+Episode 9: Path: [(1, 6), (2, 6), (3, 6)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.14917854964733124 
+
+Episode 10: Path: [(1, 6), (1, 7), (2, 7), (2, 8), (3, 8)]
+Total Reward: -0.41999999999999993, Steps: 4, Avg TD Error: 0.13466489501297474 
+
+New best reward -0.41999999999999993 achieved. Model saved at model_final_trained_llm_2.pt.
+Episode 11: Path: [(1, 6), (1, 5), (1, 6), (2, 6), (2, 5), (1, 5), (1, 4), (0, 4)]
+Total Reward: -1.05, Steps: 7, Avg TD Error: 0.12920749081032618 
+
+Episode 12: Path: [(1, 6), (1, 5), (2, 5), (2, 6), (2, 5), (2, 6), (1, 6), (1, 5), (1, 6), (1, 7), (2, 7), (1, 7), (1, 6), (1, 7), (1, 6), (1, 7), (0, 7)]
+Total Reward: -1.3499999999999999, Steps: 16, Avg TD Error: 0.13612972665578127 
+
+Episode 13: Path: [(1, 6), (1, 5), (1, 6), (1, 7), (2, 7), (2, 6), (3, 6)]
+Total Reward: -0.9, Steps: 6, Avg TD Error: 0.1185682291785876 
+
+Episode 14: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.12932485342025757 
+
+Episode 15: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.12081459164619446 
+
+Episode 16: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.1306726634502411 
+
+Episode 17: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.11609674245119095 
+
+Episode 18: Path: [(1, 6), (2, 6), (2, 7), (2, 6), (2, 7), (2, 6), (2, 5), (2, 6), (2, 5), (2, 4), (2, 3), (2, 2), (2, 1), (2, 2), (3, 2), (2, 2), (3, 2), (3, 3), (4, 3), (5, 3), (5, 4), (4, 4), (4, 5)]
+Total Reward: -0.8999999999999999, Steps: 22, Avg TD Error: 0.11482299864292145 
+
+Episode 19: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.10776517540216446 
+
+Episode 20: Path: [(1, 6), (1, 5), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.1021789163351059 
+
+Episode 21: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.10131034627556801 
+
+Episode 22: Path: [(1, 6), (1, 7), (2, 7), (2, 6), (3, 6)]
+Total Reward: -0.81, Steps: 4, Avg TD Error: 0.11045333184301853 
+
+Episode 23: Path: [(1, 6), (1, 7), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.10883450011412303 
+
+Episode 24: Path: [(1, 6), (2, 6), (2, 5), (3, 5), (3, 6)]
+Total Reward: -0.81, Steps: 4, Avg TD Error: 0.12450087629258633 
+
+Episode 25: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.11362873762845993 
+
+Episode 26: Path: [(1, 6), (1, 7), (2, 7), (2, 8), (2, 9)]
+Total Reward: -0.66, Steps: 4, Avg TD Error: 0.10363071039319038 
+
+Episode 27: Path: [(1, 6), (1, 5), (2, 5), (3, 5), (3, 4), (4, 4), (4, 5)]
+Total Reward: -0.9, Steps: 6, Avg TD Error: 0.10191162427266438 
+
+Episode 28: Path: [(1, 6), (1, 5), (1, 6), (1, 7), (1, 6), (2, 6), (2, 5), (2, 4), (2, 3), (1, 3), (0, 3)]
+Total Reward: -1.26, Steps: 10, Avg TD Error: 0.10301201716065407 
+
+Episode 29: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.12312164157629013 
+
+Episode 30: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10042115300893784 
+
+Episode 31: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09178946912288666 
+
+Episode 32: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08679597824811935 
+
+Episode 33: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08782289922237396 
+
+Episode 34: Path: [(1, 6), (1, 7), (2, 7), (2, 6), (2, 5), (2, 4), (2, 5), (2, 6), (1, 6), (1, 5), (0, 5)]
+Total Reward: -1.23, Steps: 10, Avg TD Error: 0.10140542462468147 
+
+Episode 35: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.11300007253885269 
+
+Episode 36: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09685448557138443 
+
+Episode 37: Path: [(1, 6), (1, 5), (2, 5), (2, 6), (2, 5), (1, 5), (1, 4), (1, 3), (1, 4), (0, 4)]
+Total Reward: -1.26, Steps: 9, Avg TD Error: 0.10844721065627204 
+
+Episode 38: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.11530540883541107 
+
+Episode 39: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.10317860171198845 
+
+Episode 40: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08898144960403442 
+
+Episode 41: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08423089236021042 
+
+Episode 42: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.06084096431732178 
+
+Episode 43: Path: [(1, 6), (1, 5), (1, 4), (1, 5), (1, 6), (1, 5), (0, 5)]
+Total Reward: -1.05, Steps: 6, Avg TD Error: 0.10011066248019536 
+
+Episode 44: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.10922852158546448 
+
+Episode 45: Path: [(1, 6), (1, 5), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.10469650725523631 
+
+Episode 46: Path: [(1, 6), (2, 6), (1, 6), (1, 5), (1, 6), (2, 6), (1, 6), (1, 5), (2, 5), (3, 5), (3, 4), (3, 3), (3, 4), (4, 4), (3, 4), (4, 4), (4, 3), (3, 3), (2, 3), (3, 3), (2, 3), (3, 3), (2, 3), (1, 3), (1, 2), (1, 3), (1, 4), (2, 4), (3, 4), (3, 5), (4, 5)]
+Total Reward: -1.98, Steps: 30, Avg TD Error: 0.0939131868382295 
+
+Episode 47: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10198058187961578 
+
+Episode 48: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10030721127986908 
+
+Episode 49: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08472692221403122 
+
+Episode 50: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.11852463334798813 
+
+Episode 51: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08524968475103378 
+
+Episode 52: Path: [(1, 6), (2, 6), (2, 7), (2, 8), (2, 7), (1, 7), (0, 7)]
+Total Reward: -0.9, Steps: 6, Avg TD Error: 0.09560338159402211 
+
+Episode 53: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10586003959178925 
+
+Episode 54: Path: [(1, 6), (1, 7), (2, 7), (3, 7), (2, 7), (1, 7), (0, 7)]
+Total Reward: -0.78, Steps: 6, Avg TD Error: 0.0969918929040432 
+
+Episode 55: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10529696941375732 
+
+Episode 56: Path: [(1, 6), (1, 7), (1, 8), (0, 8)]
+Total Reward: -0.69, Steps: 3, Avg TD Error: 0.09373628348112106 
+
+Episode 57: Path: [(1, 6), (1, 5), (1, 4), (1, 3), (0, 3)]
+Total Reward: -1.11, Steps: 4, Avg TD Error: 0.08507590182125568 
+
+Episode 58: Path: [(1, 6), (1, 7), (1, 6), (1, 5), (1, 6), (0, 6)]
+Total Reward: -0.93, Steps: 5, Avg TD Error: 0.08400536626577378 
+
+Episode 59: Path: [(1, 6), (2, 6), (2, 5), (2, 6), (2, 7), (3, 7), (3, 8)]
+Total Reward: -0.75, Steps: 6, Avg TD Error: 0.08772746970256169 
+
+Episode 60: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.09304952248930931 
+
+Episode 61: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10303042829036713 
+
+Episode 62: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.06646567583084106 
+
+Episode 63: Path: [(1, 6), (2, 6), (1, 6), (2, 6), (1, 6), (1, 5), (0, 5)]
+Total Reward: -1.05, Steps: 6, Avg TD Error: 0.07219768688082695 
+
+Episode 64: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.09404879063367844 
+
+Episode 65: Path: [(1, 6), (1, 7), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.09904620299736659 
+
+Episode 66: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.10903232047955196 
+
+Episode 67: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07782918959856033 
+
+Episode 68: Path: [(1, 6), (2, 6), (3, 6)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.09431982412934303 
+
+Episode 69: Path: [(1, 6), (1, 7), (2, 7), (1, 7), (1, 8), (1, 9)]
+Total Reward: -0.78, Steps: 5, Avg TD Error: 0.08381652235984802 
+
+Episode 70: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10256214439868927 
+
+Episode 71: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.1157459244132042 
+
+Episode 72: Path: [(1, 6), (2, 6), (2, 7), (2, 8), (3, 8)]
+Total Reward: -0.66, Steps: 4, Avg TD Error: 0.10377533920109272 
+
+Episode 73: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.09924682602286339 
+
+Episode 74: Path: [(1, 6), (2, 6), (3, 6)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.09200204908847809 
+
+Episode 75: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.09617336839437485 
+
+Episode 76: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.10468171536922455 
+
+Episode 77: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10856877267360687 
+
+Episode 78: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.11614805459976196 
+
+Episode 79: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.05733293294906616 
+
+Episode 80: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.11593624949455261 
+
+Episode 81: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10202344506978989 
+
+Episode 82: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0925309807062149 
+
+Episode 83: Path: [(1, 6), (2, 6), (2, 5), (1, 5), (1, 4), (0, 4)]
+Total Reward: -1.08, Steps: 5, Avg TD Error: 0.08731348365545273 
+
+Episode 84: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.1045478917658329 
+
+Episode 85: Path: [(1, 6), (2, 6), (1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.93, Steps: 5, Avg TD Error: 0.08825461119413376 
+
+Episode 86: Path: [(1, 6), (1, 7), (2, 7), (1, 7), (2, 7), (3, 7), (2, 7), (1, 7), (2, 7), (3, 7), (3, 8)]
+Total Reward: -0.93, Steps: 10, Avg TD Error: 0.09779442995786666 
+
+Episode 87: Path: [(1, 6), (1, 7), (1, 8), (1, 9)]
+Total Reward: -0.69, Steps: 3, Avg TD Error: 0.10911881426970164 
+
+Episode 88: Path: [(1, 6), (2, 6), (3, 6)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.06944946572184563 
+
+Episode 89: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10995025187730789 
+
+Episode 90: Path: [(1, 6), (1, 5), (2, 5), (2, 4), (3, 4), (3, 5), (2, 5), (3, 5), (3, 4), (2, 4), (3, 4), (3, 3), (3, 4), (2, 4), (2, 5), (2, 4), (1, 4), (1, 5), (0, 5)]
+Total Reward: -1.5899999999999999, Steps: 18, Avg TD Error: 0.09099797945883539 
+
+Episode 91: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07234353572130203 
+
+Episode 92: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.08791565522551537 
+
+Episode 93: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08310393989086151 
+
+Episode 94: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07746687531471252 
+
+Episode 95: Path: [(1, 6), (1, 7), (1, 6), (1, 7), (1, 6), (1, 7), (2, 7), (1, 7), (1, 6), (1, 7), (2, 7), (2, 8), (1, 8), (0, 8)]
+Total Reward: -1.1400000000000001, Steps: 13, Avg TD Error: 0.0957403750373767 
+
+Episode 96: Path: [(1, 6), (2, 6), (2, 7), (3, 7), (2, 7), (1, 7), (0, 7)]
+Total Reward: -0.9, Steps: 6, Avg TD Error: 0.09112327545881271 
+
+Episode 97: Path: [(1, 6), (2, 6), (3, 6)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.07355616614222527 
+
+Episode 98: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08299919962882996 
+
+Episode 99: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09206267446279526 
+
+Episode 100: Path: [(1, 6), (1, 5), (2, 5), (1, 5), (1, 4), (0, 4)]
+Total Reward: -1.08, Steps: 5, Avg TD Error: 0.1031680390238762 
+
+Episode 101: Path: [(1, 6), (2, 6), (2, 5), (2, 4), (1, 4), (0, 4)]
+Total Reward: -1.08, Steps: 5, Avg TD Error: 0.08961071074008942 
+
+Episode 102: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09264068305492401 
+
+Episode 103: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08587659895420074 
+
+Episode 104: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.06460104137659073 
+
+Episode 105: Path: [(1, 6), (1, 5), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.08924888074398041 
+
+Episode 106: Path: [(1, 6), (1, 7), (2, 7), (3, 7), (4, 7), (3, 7), (3, 6)]
+Total Reward: -0.63, Steps: 6, Avg TD Error: 0.08761036023497581 
+
+Episode 107: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10558335483074188 
+
+Episode 108: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10170210897922516 
+
+Episode 109: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.08694474771618843 
+
+Episode 110: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08480651676654816 
+
+Episode 111: Path: [(1, 6), (1, 7), (1, 6), (2, 6), (1, 6), (1, 7), (0, 7)]
+Total Reward: -0.9, Steps: 6, Avg TD Error: 0.09088357910513878 
+
+Episode 112: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.08853736519813538 
+
+Episode 113: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07595674693584442 
+
+Episode 114: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.09730077534914017 
+
+Episode 115: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0994768962264061 
+
+Episode 116: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08103558421134949 
+
+Episode 117: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.1137784868478775 
+
+Episode 118: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08263681828975677 
+
+Episode 119: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.11304108053445816 
+
+Episode 120: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.08705465495586395 
+
+Episode 121: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.10003143548965454 
+
+Episode 122: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.1250809282064438 
+
+Episode 123: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07774318009614944 
+
+Episode 124: Path: [(1, 6), (2, 6), (2, 7), (1, 7), (0, 7)]
+Total Reward: -0.81, Steps: 4, Avg TD Error: 0.09758867509663105 
+
+Episode 125: Path: [(1, 6), (1, 5), (1, 4), (1, 5), (0, 5)]
+Total Reward: -0.96, Steps: 4, Avg TD Error: 0.08494110405445099 
+
+Episode 126: Path: [(1, 6), (2, 6), (2, 7), (2, 8), (1, 8), (2, 8), (1, 8), (0, 8)]
+Total Reward: -0.87, Steps: 7, Avg TD Error: 0.09902078019721168 
+
+Episode 127: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08983352780342102 
+
+Episode 128: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.08425581455230713 
+
+Episode 129: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.08997306600213051 
+
+Episode 130: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.1025245189666748 
+
+Episode 131: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09853450953960419 
+
+Episode 132: Path: [(1, 6), (1, 7), (1, 8), (0, 8)]
+Total Reward: -0.69, Steps: 3, Avg TD Error: 0.09439439823230107 
+
+Episode 133: Path: [(1, 6), (1, 7), (1, 8), (0, 8)]
+Total Reward: -0.69, Steps: 3, Avg TD Error: 0.09160623947779338 
+
+Episode 134: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09532197564840317 
+
+Episode 135: Path: [(1, 6), (1, 7), (2, 7), (1, 7), (1, 8), (2, 8), (3, 8)]
+Total Reward: -0.75, Steps: 6, Avg TD Error: 0.10066575184464455 
+
+Episode 136: Path: [(1, 6), (1, 5), (1, 6), (1, 5), (2, 5), (1, 5), (1, 4), (2, 4), (1, 4), (2, 4), (2, 5), (1, 5), (0, 5)]
+Total Reward: -1.3199999999999998, Steps: 12, Avg TD Error: 0.09123607538640499 
+
+Episode 137: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07506485283374786 
+
+Episode 138: Path: [(1, 6), (1, 7), (1, 8), (2, 8), (1, 8), (0, 8)]
+Total Reward: -0.78, Steps: 5, Avg TD Error: 0.10258754789829254 
+
+Episode 139: Path: [(1, 6), (2, 6), (3, 6)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.08426007255911827 
+
+Episode 140: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.06336614489555359 
+
+Episode 141: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10168580710887909 
+
+Episode 142: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09063837677240372 
+
+Episode 143: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09594555199146271 
+
+Episode 144: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09251890331506729 
+
+Episode 145: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08526330441236496 
+
+Episode 146: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10294829308986664 
+
+Episode 147: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.09532217929760615 
+
+Episode 148: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.08462690562009811 
+
+Episode 149: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0737214982509613 
+
+Episode 150: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08820550888776779 
+
+Episode 151: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.10141760110855103 
+
+Episode 152: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.08665107190608978 
+
+Episode 153: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08494797348976135 
+
+Episode 154: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09557903558015823 
+
+Episode 155: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08511269837617874 
+
+Episode 156: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.09272507205605507 
+
+Episode 157: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.06477579474449158 
+
+Episode 158: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0908612310886383 
+
+Episode 159: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08551010489463806 
+
+Episode 160: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.11397569626569748 
+
+Episode 161: Path: [(1, 6), (1, 5), (1, 4), (0, 4)]
+Total Reward: -0.99, Steps: 3, Avg TD Error: 0.10219887395699818 
+
+Episode 162: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09858353435993195 
+
+Episode 163: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08339400589466095 
+
+Episode 164: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10412587225437164 
+
+Episode 165: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09669095277786255 
+
+Episode 166: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10614798218011856 
+
+Episode 167: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09839364886283875 
+
+Episode 168: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08767808973789215 
+
+Episode 169: Path: [(1, 6), (1, 7), (1, 8), (0, 8)]
+Total Reward: -0.69, Steps: 3, Avg TD Error: 0.09363486369450887 
+
+Episode 170: Path: [(1, 6), (1, 5), (1, 4), (0, 4)]
+Total Reward: -0.99, Steps: 3, Avg TD Error: 0.09702201435963313 
+
+Episode 171: Path: [(1, 6), (2, 6), (2, 7), (1, 7), (0, 7)]
+Total Reward: -0.81, Steps: 4, Avg TD Error: 0.09225357696413994 
+
+Episode 172: Path: [(1, 6), (1, 7), (1, 6), (1, 5), (1, 4), (0, 4)]
+Total Reward: -1.08, Steps: 5, Avg TD Error: 0.08833587318658828 
+
+Episode 173: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08135667443275452 
+
+Episode 174: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09124495089054108 
+
+Episode 175: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.09452871605753899 
+
+Episode 176: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07523948699235916 
+
+Episode 177: Path: [(1, 6), (2, 6), (2, 5), (3, 5), (2, 5), (1, 5), (1, 4), (0, 4)]
+Total Reward: -1.17, Steps: 7, Avg TD Error: 0.08028314475502286 
+
+Episode 178: Path: [(1, 6), (1, 5), (1, 6), (1, 5), (0, 5)]
+Total Reward: -0.96, Steps: 4, Avg TD Error: 0.09853443503379822 
+
+Episode 179: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08774058520793915 
+
+Episode 180: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.09327954426407814 
+
+Episode 181: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.083392729361852 
+
+Episode 182: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.09067981690168381 
+
+Episode 183: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.09081656113266945 
+
+Episode 184: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07318045943975449 
+
+Episode 185: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.10558375343680382 
+
+Episode 186: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08985470235347748 
+
+Episode 187: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08194117248058319 
+
+Episode 188: Path: [(1, 6), (1, 5), (1, 6), (2, 6), (2, 7), (1, 7), (0, 7)]
+Total Reward: -0.9, Steps: 6, Avg TD Error: 0.08500938986738522 
+
+Episode 189: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07965423166751862 
+
+Episode 190: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.06083468347787857 
+
+Episode 191: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.050765782594680786 
+
+Episode 192: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07390821725130081 
+
+Episode 193: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08081141859292984 
+
+Episode 194: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08852759748697281 
+
+Episode 195: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09014628827571869 
+
+Episode 196: Path: [(1, 6), (1, 7), (2, 7), (2, 8), (2, 7), (1, 7), (0, 7)]
+Total Reward: -0.9, Steps: 6, Avg TD Error: 0.09528786068161328 
+
+Episode 197: Path: [(1, 6), (1, 7), (1, 8), (0, 8)]
+Total Reward: -0.69, Steps: 3, Avg TD Error: 0.09296878427267075 
+
+Episode 198: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0951547846198082 
+
+Episode 199: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.06995492428541183 
+
+Episode 200: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08622418344020844 
+
+Episode 201: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10248783230781555 
+
+Episode 202: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.11661390960216522 
+
+Episode 203: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10014130175113678 
+
+Episode 204: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10934887826442719 
+
+Episode 205: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.05917085334658623 
+
+Episode 206: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.11362075805664062 
+
+Episode 207: Path: [(1, 6), (2, 6), (1, 6), (1, 5), (0, 5)]
+Total Reward: -0.96, Steps: 4, Avg TD Error: 0.08999578095972538 
+
+Episode 208: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10423082113265991 
+
+Episode 209: Path: [(1, 6), (1, 5), (1, 4), (2, 4), (2, 3), (1, 3), (0, 3)]
+Total Reward: -1.2, Steps: 6, Avg TD Error: 0.07394945745666821 
+
+Episode 210: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08731980621814728 
+
+Episode 211: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08097060024738312 
+
+Episode 212: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10764794796705246 
+
+Episode 213: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07865887880325317 
+
+Episode 214: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.09724093973636627 
+
+Episode 215: Path: [(1, 6), (2, 6), (3, 6)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.09624049812555313 
+
+Episode 216: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08664356172084808 
+
+Episode 217: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.08208413049578667 
+
+Episode 218: Path: [(1, 6), (2, 6), (1, 6), (1, 5), (0, 5)]
+Total Reward: -0.96, Steps: 4, Avg TD Error: 0.09194930642843246 
+
+Episode 219: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.09765732288360596 
+
+Episode 220: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.09701856598258018 
+
+Episode 221: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.09515808522701263 
+
+Episode 222: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08961942791938782 
+
+Episode 223: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.1111760064959526 
+
+Episode 224: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07362227886915207 
+
+Episode 225: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09357006102800369 
+
+Episode 226: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.07720756158232689 
+
+Episode 227: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09624740481376648 
+
+Episode 228: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.08807050436735153 
+
+Episode 229: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08737079799175262 
+
+Episode 230: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07478857040405273 
+
+Episode 231: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0872422531247139 
+
+Episode 232: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.10019366443157196 
+
+Episode 233: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07224956154823303 
+
+Episode 234: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10219043493270874 
+
+Episode 235: Path: [(1, 6), (2, 6), (2, 5), (3, 5), (2, 5), (1, 5), (2, 5), (2, 4), (2, 3), (3, 3), (2, 3), (1, 3), (1, 4), (0, 4)]
+Total Reward: -1.44, Steps: 13, Avg TD Error: 0.09254828267372571 
+
+Episode 236: Path: [(1, 6), (2, 6), (1, 6), (1, 7), (0, 7)]
+Total Reward: -0.81, Steps: 4, Avg TD Error: 0.09925221279263496 
+
+Episode 237: Path: [(1, 6), (1, 7), (2, 7), (1, 7), (0, 7)]
+Total Reward: -0.81, Steps: 4, Avg TD Error: 0.08548562414944172 
+
+Episode 238: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.08909278362989426 
+
+Episode 239: Path: [(1, 6), (1, 7), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.09545474996169408 
+
+Episode 240: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08591759204864502 
+
+Episode 241: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.08699721843004227 
+
+Episode 242: Path: [(1, 6), (2, 6), (2, 7), (1, 7), (0, 7)]
+Total Reward: -0.81, Steps: 4, Avg TD Error: 0.08574843313544989 
+
+Episode 243: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.0955747440457344 
+
+Episode 244: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.1048530861735344 
+
+Episode 245: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08300511538982391 
+
+Episode 246: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09165552258491516 
+
+Episode 247: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.1119598001241684 
+
+Episode 248: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08651252090930939 
+
+Episode 249: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.10273962467908859 
+
+Episode 250: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07459805905818939 
+
+Episode 251: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.08417890965938568 
+
+Episode 252: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09811027348041534 
+
+Episode 253: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10245296359062195 
+
+Episode 254: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0863417387008667 
+
+Episode 255: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08171111345291138 
+
+Episode 256: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07333661615848541 
+
+Episode 257: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09002867341041565 
+
+Episode 258: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09104888141155243 
+
+Episode 259: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10604291409254074 
+
+Episode 260: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.09736554076274236 
+
+Episode 261: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10391269624233246 
+
+Episode 262: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10009144246578217 
+
+Episode 263: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09293590486049652 
+
+Episode 264: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.1106482744216919 
+
+Episode 265: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.06882739067077637 
+
+Episode 266: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10107868909835815 
+
+Episode 267: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.09059215833743413 
+
+Episode 268: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.11211344599723816 
+
+Episode 269: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07238446921110153 
+
+Episode 270: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.0940898135304451 
+
+Episode 271: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.047501929104328156 
+
+Episode 272: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09469608962535858 
+
+Episode 273: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.06916212290525436 
+
+Episode 274: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08728790283203125 
+
+Episode 275: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09195099771022797 
+
+Episode 276: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09698665887117386 
+
+Episode 277: Path: [(1, 6), (2, 6), (3, 6)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.09335830807685852 
+
+Episode 278: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07570480555295944 
+
+Episode 279: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07247596979141235 
+
+Episode 280: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09556955099105835 
+
+Episode 281: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0840831995010376 
+
+Episode 282: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.04599527269601822 
+
+Episode 283: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0931403636932373 
+
+Episode 284: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08581084758043289 
+
+Episode 285: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.07630264014005661 
+
+Episode 286: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0656261295080185 
+
+Episode 287: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08902333676815033 
+
+Episode 288: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08884132653474808 
+
+Episode 289: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.08044025301933289 
+
+Episode 290: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0735887736082077 
+
+Episode 291: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.09158110618591309 
+
+Episode 292: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0735626369714737 
+
+Episode 293: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.0702565461397171 
+
+Episode 294: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.11241652071475983 
+
+Episode 295: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07885842770338058 
+
+Episode 296: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08445398509502411 
+
+Episode 297: Path: [(1, 6), (1, 7), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.0839272066950798 
+
+Episode 298: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.12566204369068146 
+
+Episode 299: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.09365493059158325 
+
+Episode 300: Path: [(1, 6), (1, 5), (1, 4), (1, 5), (2, 5), (3, 5), (3, 6)]
+Total Reward: -0.9, Steps: 6, Avg TD Error: 0.09647010266780853 
+
+Episode 301: Path: [(1, 6), (1, 7), (1, 8), (1, 7), (0, 7)]
+Total Reward: -0.81, Steps: 4, Avg TD Error: 0.09462191723287106 
+
+Episode 302: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.10140156745910645 
+
+Episode 303: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08707398176193237 
+
+Episode 304: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08737640082836151 
+
+Episode 305: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08327686041593552 
+
+Episode 306: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0895109549164772 
+
+Episode 307: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07471495866775513 
+
+Episode 308: Path: [(1, 6), (2, 6), (1, 6), (2, 6), (2, 5), (1, 5), (0, 5)]
+Total Reward: -1.05, Steps: 6, Avg TD Error: 0.08212439964214961 
+
+Episode 309: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09431859850883484 
+
+Episode 310: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08530409634113312 
+
+Episode 311: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07126866281032562 
+
+Episode 312: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08275660872459412 
+
+Episode 313: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08963295072317123 
+
+Episode 314: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.06480581499636173 
+
+Episode 315: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.09072081744670868 
+
+Episode 316: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.0829931025703748 
+
+Episode 317: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.0805463008582592 
+
+Episode 318: Path: [(1, 6), (1, 5), (1, 4), (1, 3), (0, 3)]
+Total Reward: -1.11, Steps: 4, Avg TD Error: 0.08285474497824907 
+
+Episode 319: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.10432974621653557 
+
+Episode 320: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.09220517799258232 
+
+Episode 321: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.08799811452627182 
+
+Episode 322: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.1100572869181633 
+
+Episode 323: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.08792279660701752 
+
+Episode 324: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.08692195266485214 
+
+Episode 325: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08244366943836212 
+
+Episode 326: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08327597379684448 
+
+Episode 327: Path: [(1, 6), (1, 5), (1, 4), (0, 4)]
+Total Reward: -0.99, Steps: 3, Avg TD Error: 0.06543158988157909 
+
+Episode 328: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09442251920700073 
+
+Episode 329: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08812828361988068 
+
+Episode 330: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09785524755716324 
+
+Episode 331: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.11908814311027527 
+
+Episode 332: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.09358176589012146 
+
+Episode 333: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.09422923624515533 
+
+Episode 334: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09261522442102432 
+
+Episode 335: Path: [(1, 6), (1, 5), (1, 4), (2, 4), (2, 3), (1, 3), (0, 3)]
+Total Reward: -1.2, Steps: 6, Avg TD Error: 0.08858640243609746 
+
+Episode 336: Path: [(1, 6), (1, 7), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.08704302708307902 
+
+Episode 337: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0787741169333458 
+
+Episode 338: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07435183227062225 
+
+Episode 339: Path: [(1, 6), (2, 6), (3, 6)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.08806473389267921 
+
+Episode 340: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08760929107666016 
+
+Episode 341: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.08643061419328053 
+
+Episode 342: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0926244929432869 
+
+Episode 343: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0843479335308075 
+
+Episode 344: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07433774322271347 
+
+Episode 345: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08983570337295532 
+
+Episode 346: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0989544466137886 
+
+Episode 347: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08461155742406845 
+
+Episode 348: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08297081291675568 
+
+Episode 349: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0877687931060791 
+
+Episode 350: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09578573703765869 
+
+Episode 351: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09135044366121292 
+
+Episode 352: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09869042038917542 
+
+Episode 353: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07129284739494324 
+
+Episode 354: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.0920613631606102 
+
+Episode 355: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.08701278765996297 
+
+Episode 356: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08209946751594543 
+
+Episode 357: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.06852860748767853 
+
+Episode 358: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10295917093753815 
+
+Episode 359: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.08761035154263179 
+
+Episode 360: Path: [(1, 6), (1, 7), (1, 8), (0, 8)]
+Total Reward: -0.69, Steps: 3, Avg TD Error: 0.08386853833993275 
+
+Episode 361: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.08896066745122273 
+
+Episode 362: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.11277762800455093 
+
+Episode 363: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08740575611591339 
+
+Episode 364: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09195472300052643 
+
+Episode 365: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08868966996669769 
+
+Episode 366: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09514689445495605 
+
+Episode 367: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09244885295629501 
+
+Episode 368: Path: [(1, 6), (2, 6), (3, 6)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.08656375855207443 
+
+Episode 369: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.1023886501789093 
+
+Episode 370: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07549210637807846 
+
+Episode 371: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09164468199014664 
+
+Episode 372: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.0947646622856458 
+
+Episode 373: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.05534900724887848 
+
+Episode 374: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07687775045633316 
+
+Episode 375: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09672680497169495 
+
+Episode 376: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.08765507986148198 
+
+Episode 377: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08885776251554489 
+
+Episode 378: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08332450687885284 
+
+Episode 379: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.06919320672750473 
+
+Episode 380: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09666462242603302 
+
+Episode 381: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09492836892604828 
+
+Episode 382: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09913238883018494 
+
+Episode 383: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08442266285419464 
+
+Episode 384: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10309413075447083 
+
+Episode 385: Path: [(1, 6), (1, 5), (1, 4), (0, 4)]
+Total Reward: -0.99, Steps: 3, Avg TD Error: 0.09032972405354182 
+
+Episode 386: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.0910213515162468 
+
+Episode 387: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08731180429458618 
+
+Episode 388: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10418985784053802 
+
+Episode 389: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10050835460424423 
+
+Episode 390: Path: [(1, 6), (2, 6), (1, 6), (1, 5), (0, 5)]
+Total Reward: -0.96, Steps: 4, Avg TD Error: 0.09251565299928188 
+
+Episode 391: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08743437379598618 
+
+Episode 392: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0837138295173645 
+
+Episode 393: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.06655146181583405 
+
+Episode 394: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.08213303486506145 
+
+Episode 395: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08801383525133133 
+
+Episode 396: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09092710167169571 
+
+Episode 397: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.11965219676494598 
+
+Episode 398: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.09483112394809723 
+
+Episode 399: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08830735087394714 
+
+Episode 400: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07921891659498215 
+
+Episode 401: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.10358850657939911 
+
+Episode 402: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09092868119478226 
+
+Episode 403: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08425594121217728 
+
+Episode 404: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.08817778279383977 
+
+Episode 405: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08269239217042923 
+
+Episode 406: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09103761613368988 
+
+Episode 407: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09576229751110077 
+
+Episode 408: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.0783032551407814 
+
+Episode 409: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.06998793035745621 
+
+Episode 410: Path: [(1, 6), (1, 5), (1, 4), (0, 4)]
+Total Reward: -0.99, Steps: 3, Avg TD Error: 0.09100266794363658 
+
+Episode 411: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.1045541763305664 
+
+Episode 412: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.07732254266738892 
+
+Episode 413: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10585937649011612 
+
+Episode 414: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08633533120155334 
+
+Episode 415: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.10106196254491806 
+
+Episode 416: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09184581786394119 
+
+Episode 417: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09976266324520111 
+
+Episode 418: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.09959523379802704 
+
+Episode 419: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09060271829366684 
+
+Episode 420: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09900979697704315 
+
+Episode 421: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08813603222370148 
+
+Episode 422: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0905325636267662 
+
+Episode 423: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07744109630584717 
+
+Episode 424: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.07620196044445038 
+
+Episode 425: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.06459802389144897 
+
+Episode 426: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08148118108510971 
+
+Episode 427: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0801609605550766 
+
+Episode 428: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.08230480179190636 
+
+Episode 429: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08829891681671143 
+
+Episode 430: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09440235048532486 
+
+Episode 431: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09530878812074661 
+
+Episode 432: Path: [(1, 6), (1, 5), (1, 6), (1, 7), (1, 6), (0, 6)]
+Total Reward: -0.93, Steps: 5, Avg TD Error: 0.08980577290058137 
+
+Episode 433: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08316567540168762 
+
+Episode 434: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08436599373817444 
+
+Episode 435: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09342531114816666 
+
+Episode 436: Path: [(1, 6), (1, 5), (1, 4), (1, 3), (0, 3)]
+Total Reward: -1.11, Steps: 4, Avg TD Error: 0.09464274160563946 
+
+Episode 437: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08548469096422195 
+
+Episode 438: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08901174366474152 
+
+Episode 439: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10723520815372467 
+
+Episode 440: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07515354454517365 
+
+Episode 441: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07007592916488647 
+
+Episode 442: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0881844013929367 
+
+Episode 443: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.08797384798526764 
+
+Episode 444: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07916522026062012 
+
+Episode 445: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08663984388113022 
+
+Episode 446: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0727250725030899 
+
+Episode 447: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07706797122955322 
+
+Episode 448: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.07672639191150665 
+
+Episode 449: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07328061014413834 
+
+Episode 450: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07699383795261383 
+
+Episode 451: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.0797058492898941 
+
+Episode 452: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.11414264142513275 
+
+Episode 453: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0670093223452568 
+
+Episode 454: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07295581698417664 
+
+Episode 455: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08879789710044861 
+
+Episode 456: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09478485584259033 
+
+Episode 457: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.09118479490280151 
+
+Episode 458: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07838765531778336 
+
+Episode 459: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.06894892081618309 
+
+Episode 460: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07967229187488556 
+
+Episode 461: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0982065498828888 
+
+Episode 462: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07007667422294617 
+
+Episode 463: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09257524460554123 
+
+Episode 464: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.11360999196767807 
+
+Episode 465: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07633838802576065 
+
+Episode 466: Path: [(1, 6), (1, 5), (1, 6), (1, 5), (0, 5)]
+Total Reward: -0.96, Steps: 4, Avg TD Error: 0.08976750820875168 
+
+Episode 467: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08270512521266937 
+
+Episode 468: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10487642139196396 
+
+Episode 469: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.06478936970233917 
+
+Episode 470: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07261347770690918 
+
+Episode 471: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09608104825019836 
+
+Episode 472: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.06356266140937805 
+
+Episode 473: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.09103716164827347 
+
+Episode 474: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09841743111610413 
+
+Episode 475: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08211751282215118 
+
+Episode 476: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.07724300275246303 
+
+Episode 477: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07790185511112213 
+
+Episode 478: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07135890424251556 
+
+Episode 479: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10138235986232758 
+
+Episode 480: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07625000178813934 
+
+Episode 481: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10869802534580231 
+
+Episode 482: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09715147316455841 
+
+Episode 483: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09814155101776123 
+
+Episode 484: Path: [(1, 6), (2, 6), (3, 6)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.08739274740219116 
+
+Episode 485: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09319397062063217 
+
+Episode 486: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.05292163044214249 
+
+Episode 487: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09196469187736511 
+
+Episode 488: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0764804482460022 
+
+Episode 489: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07667779177427292 
+
+Episode 490: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07826177030801773 
+
+Episode 491: Path: [(1, 6), (2, 6), (1, 6), (1, 5), (2, 5), (1, 5), (0, 5)]
+Total Reward: -1.05, Steps: 6, Avg TD Error: 0.08788640300432841 
+
+Episode 492: Path: [(1, 6), (1, 7), (1, 8), (0, 8)]
+Total Reward: -0.69, Steps: 3, Avg TD Error: 0.09164795279502869 
+
+Episode 493: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09312251210212708 
+
+Episode 494: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.06235369294881821 
+
+Episode 495: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08993463963270187 
+
+Episode 496: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09509122371673584 
+
+Episode 497: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.05994468182325363 
+
+Episode 498: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10380975902080536 
+
+Episode 499: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.07982489963372548 
+
+Episode 500: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0939248576760292 
+
+Episode 501: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07782689481973648 
+
+Episode 502: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09647166728973389 
+
+Episode 503: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07977212220430374 
+
+Episode 504: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0973282903432846 
+
+Episode 505: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.07911495864391327 
+
+Episode 506: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.06695910543203354 
+
+Episode 507: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08511752635240555 
+
+Episode 508: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07449597865343094 
+
+Episode 509: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.06607061624526978 
+
+Episode 510: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10666289180517197 
+
+Episode 511: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07413457334041595 
+
+Episode 512: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.11130820214748383 
+
+Episode 513: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.09110644087195396 
+
+Episode 514: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09404189884662628 
+
+Episode 515: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.07197872549295425 
+
+Episode 516: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08262372016906738 
+
+Episode 517: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10903269797563553 
+
+Episode 518: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10766468942165375 
+
+Episode 519: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.08469612523913383 
+
+Episode 520: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09427745640277863 
+
+Episode 521: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07449021190404892 
+
+Episode 522: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08342500030994415 
+
+Episode 523: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10367637127637863 
+
+Episode 524: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08444222807884216 
+
+Episode 525: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07708749175071716 
+
+Episode 526: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.08487150073051453 
+
+Episode 527: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.04326784983277321 
+
+Episode 528: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07720029354095459 
+
+Episode 529: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07855379581451416 
+
+Episode 530: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10823871940374374 
+
+Episode 531: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07348895072937012 
+
+Episode 532: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08691857010126114 
+
+Episode 533: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.1027936115860939 
+
+Episode 534: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.0858195424079895 
+
+Episode 535: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.09469497948884964 
+
+Episode 536: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.11285991221666336 
+
+Episode 537: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07721328735351562 
+
+Episode 538: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07347077131271362 
+
+Episode 539: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08412006497383118 
+
+Episode 540: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.07242537165681522 
+
+Episode 541: Path: [(1, 6), (1, 7), (2, 7), (1, 7), (0, 7)]
+Total Reward: -0.81, Steps: 4, Avg TD Error: 0.08664859086275101 
+
+Episode 542: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08500036597251892 
+
+Episode 543: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08334575593471527 
+
+Episode 544: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0884479209780693 
+
+Episode 545: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.06357008218765259 
+
+Episode 546: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09708017110824585 
+
+Episode 547: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10470438003540039 
+
+Episode 548: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08805564045906067 
+
+Episode 549: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08190789818763733 
+
+Episode 550: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0761503130197525 
+
+Episode 551: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09139442443847656 
+
+Episode 552: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07914334535598755 
+
+Episode 553: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08069764077663422 
+
+Episode 554: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07278309762477875 
+
+Episode 555: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09800232946872711 
+
+Episode 556: Path: [(1, 6), (2, 6), (2, 5), (1, 5), (0, 5)]
+Total Reward: -0.96, Steps: 4, Avg TD Error: 0.09467205218970776 
+
+Episode 557: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09231545776128769 
+
+Episode 558: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0757526308298111 
+
+Episode 559: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09779059886932373 
+
+Episode 560: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10786907374858856 
+
+Episode 561: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07932344824075699 
+
+Episode 562: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0912134200334549 
+
+Episode 563: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.09585946425795555 
+
+Episode 564: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08467480540275574 
+
+Episode 565: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.085546113550663 
+
+Episode 566: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09385444223880768 
+
+Episode 567: Path: [(1, 6), (1, 7), (1, 8), (0, 8)]
+Total Reward: -0.69, Steps: 3, Avg TD Error: 0.08235494047403336 
+
+Episode 568: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0900299996137619 
+
+Episode 569: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08975214511156082 
+
+Episode 570: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10501927882432938 
+
+Episode 571: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07497233152389526 
+
+Episode 572: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08129839599132538 
+
+Episode 573: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10812077671289444 
+
+Episode 574: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.096615269780159 
+
+Episode 575: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0914749950170517 
+
+Episode 576: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.08040863461792469 
+
+Episode 577: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.11132785677909851 
+
+Episode 578: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.09927887469530106 
+
+Episode 579: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.09477781504392624 
+
+Episode 580: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0894336849451065 
+
+Episode 581: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08508628606796265 
+
+Episode 582: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08878834545612335 
+
+Episode 583: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.1116136908531189 
+
+Episode 584: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.08912064880132675 
+
+Episode 585: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08504665642976761 
+
+Episode 586: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08215877413749695 
+
+Episode 587: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10746803134679794 
+
+Episode 588: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08507832884788513 
+
+Episode 589: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09040583670139313 
+
+Episode 590: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0854342058300972 
+
+Episode 591: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0815289244055748 
+
+Episode 592: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07937616109848022 
+
+Episode 593: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0888841450214386 
+
+Episode 594: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.06902717053890228 
+
+Episode 595: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.11891749501228333 
+
+Episode 596: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08170612156391144 
+
+Episode 597: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09285910427570343 
+
+Episode 598: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.09101649125417073 
+
+Episode 599: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.06593010574579239 
+
+Episode 600: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0753663033246994 
+
+Episode 601: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.09540116786956787 
+
+Episode 602: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08399733901023865 
+
+Episode 603: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08864015340805054 
+
+Episode 604: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09687869995832443 
+
+Episode 605: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08163292706012726 
+
+Episode 606: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.08593373373150826 
+
+Episode 607: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07243622094392776 
+
+Episode 608: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09251464158296585 
+
+Episode 609: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09727757424116135 
+
+Episode 610: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.1194445937871933 
+
+Episode 611: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08566051721572876 
+
+Episode 612: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.09539015218615532 
+
+Episode 613: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08701322972774506 
+
+Episode 614: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07824154943227768 
+
+Episode 615: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09076185524463654 
+
+Episode 616: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08977709710597992 
+
+Episode 617: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.09219354018568993 
+
+Episode 618: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09648527950048447 
+
+Episode 619: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07494893670082092 
+
+Episode 620: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09220990538597107 
+
+Episode 621: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.0897359810769558 
+
+Episode 622: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07182884216308594 
+
+Episode 623: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10166793316602707 
+
+Episode 624: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08597816526889801 
+
+Episode 625: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09143183380365372 
+
+Episode 626: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08745014667510986 
+
+Episode 627: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07614552974700928 
+
+Episode 628: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09867146611213684 
+
+Episode 629: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.11167429387569427 
+
+Episode 630: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07007777690887451 
+
+Episode 631: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08403430134057999 
+
+Episode 632: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08007744699716568 
+
+Episode 633: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10305169969797134 
+
+Episode 634: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09266848862171173 
+
+Episode 635: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09844186902046204 
+
+Episode 636: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.11404570937156677 
+
+Episode 637: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08794806152582169 
+
+Episode 638: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.10187150537967682 
+
+Episode 639: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07144618034362793 
+
+Episode 640: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09681456536054611 
+
+Episode 641: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09159482270479202 
+
+Episode 642: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07780018448829651 
+
+Episode 643: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08517313748598099 
+
+Episode 644: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08751749992370605 
+
+Episode 645: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07905027270317078 
+
+Episode 646: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.05772455409169197 
+
+Episode 647: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09590782225131989 
+
+Episode 648: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0960911214351654 
+
+Episode 649: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0924658551812172 
+
+Episode 650: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.06679420918226242 
+
+Episode 651: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08962221443653107 
+
+Episode 652: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08727443218231201 
+
+Episode 653: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08477935194969177 
+
+Episode 654: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09100128710269928 
+
+Episode 655: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08276284486055374 
+
+Episode 656: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07790156453847885 
+
+Episode 657: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0693279579281807 
+
+Episode 658: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.1040160059928894 
+
+Episode 659: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07703077048063278 
+
+Episode 660: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09745074063539505 
+
+Episode 661: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09914331138134003 
+
+Episode 662: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09614651650190353 
+
+Episode 663: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.08133603135744731 
+
+Episode 664: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0843099057674408 
+
+Episode 665: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07779838144779205 
+
+Episode 666: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08186459541320801 
+
+Episode 667: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09189348667860031 
+
+Episode 668: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0895424634218216 
+
+Episode 669: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.12840794026851654 
+
+Episode 670: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08945068717002869 
+
+Episode 671: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.11398747563362122 
+
+Episode 672: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08359412848949432 
+
+Episode 673: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0952252596616745 
+
+Episode 674: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10627275705337524 
+
+Episode 675: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08719727396965027 
+
+Episode 676: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09139717370271683 
+
+Episode 677: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09551060199737549 
+
+Episode 678: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.05281595513224602 
+
+Episode 679: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10212267190217972 
+
+Episode 680: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08238700777292252 
+
+Episode 681: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09768053889274597 
+
+Episode 682: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08927126228809357 
+
+Episode 683: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08311477303504944 
+
+Episode 684: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09243621677160263 
+
+Episode 685: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.07882455363869667 
+
+Episode 686: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08630617707967758 
+
+Episode 687: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08900139480829239 
+
+Episode 688: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07686405628919601 
+
+Episode 689: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08809647709131241 
+
+Episode 690: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09230615198612213 
+
+Episode 691: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0804562047123909 
+
+Episode 692: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08189360797405243 
+
+Episode 693: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07732057571411133 
+
+Episode 694: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07687679678201675 
+
+Episode 695: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08120522648096085 
+
+Episode 696: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.06294920295476913 
+
+Episode 697: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0875200629234314 
+
+Episode 698: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09325997531414032 
+
+Episode 699: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08493048697710037 
+
+Episode 700: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09210644662380219 
+
+Episode 701: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10202367603778839 
+
+Episode 702: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.06862295418977737 
+
+Episode 703: Path: [(1, 6), (2, 6), (3, 6)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.09894297644495964 
+
+Episode 704: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.06794381141662598 
+
+Episode 705: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09174659848213196 
+
+Episode 706: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07384955883026123 
+
+Episode 707: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09035123884677887 
+
+Episode 708: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.11667781323194504 
+
+Episode 709: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08799976110458374 
+
+Episode 710: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09263955056667328 
+
+Episode 711: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07164768874645233 
+
+Episode 712: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08707599341869354 
+
+Episode 713: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.10360344871878624 
+
+Episode 714: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07973708212375641 
+
+Episode 715: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09185154736042023 
+
+Episode 716: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.0944899320602417 
+
+Episode 717: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09585298597812653 
+
+Episode 718: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09599453210830688 
+
+Episode 719: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08753505349159241 
+
+Episode 720: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09750239551067352 
+
+Episode 721: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10739639401435852 
+
+Episode 722: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10791949182748795 
+
+Episode 723: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09572413563728333 
+
+Episode 724: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07378815114498138 
+
+Episode 725: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08162792026996613 
+
+Episode 726: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10285970568656921 
+
+Episode 727: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.076377272605896 
+
+Episode 728: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07811054587364197 
+
+Episode 729: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09555558860301971 
+
+Episode 730: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10886874794960022 
+
+Episode 731: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0994829535484314 
+
+Episode 732: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09816271811723709 
+
+Episode 733: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.09742588922381401 
+
+Episode 734: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.092378169298172 
+
+Episode 735: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07823047041893005 
+
+Episode 736: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09001022577285767 
+
+Episode 737: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07922594994306564 
+
+Episode 738: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07256227731704712 
+
+Episode 739: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0807369202375412 
+
+Episode 740: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09073802828788757 
+
+Episode 741: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.11238831281661987 
+
+Episode 742: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0841463953256607 
+
+Episode 743: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07902748882770538 
+
+Episode 744: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10127583891153336 
+
+Episode 745: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10085785388946533 
+
+Episode 746: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08029960095882416 
+
+Episode 747: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07546287775039673 
+
+Episode 748: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07326485216617584 
+
+Episode 749: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0914284959435463 
+
+Episode 750: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08683361858129501 
+
+Episode 751: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08886227011680603 
+
+Episode 752: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09028463065624237 
+
+Episode 753: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.11224201321601868 
+
+Episode 754: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09667128324508667 
+
+Episode 755: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.07882184535264969 
+
+Episode 756: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09127196669578552 
+
+Episode 757: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08708605170249939 
+
+Episode 758: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10051197558641434 
+
+Episode 759: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09366612136363983 
+
+Episode 760: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0972864180803299 
+
+Episode 761: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09241561591625214 
+
+Episode 762: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07590986043214798 
+
+Episode 763: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.1010848730802536 
+
+Episode 764: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09734497964382172 
+
+Episode 765: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09420419484376907 
+
+Episode 766: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0928034633398056 
+
+Episode 767: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08721741288900375 
+
+Episode 768: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0711875632405281 
+
+Episode 769: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.093685582280159 
+
+Episode 770: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10328824818134308 
+
+Episode 771: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07691303640604019 
+
+Episode 772: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10833296179771423 
+
+Episode 773: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09488913416862488 
+
+Episode 774: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09508079290390015 
+
+Episode 775: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09877807646989822 
+
+Episode 776: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09250415116548538 
+
+Episode 777: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08106973767280579 
+
+Episode 778: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07804238796234131 
+
+Episode 779: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09911789745092392 
+
+Episode 780: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08811761438846588 
+
+Episode 781: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0872117429971695 
+
+Episode 782: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09285584092140198 
+
+Episode 783: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08855052292346954 
+
+Episode 784: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09079456329345703 
+
+Episode 785: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09114040434360504 
+
+Episode 786: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08937151730060577 
+
+Episode 787: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09090083837509155 
+
+Episode 788: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08777405321598053 
+
+Episode 789: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08549337089061737 
+
+Episode 790: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08605198562145233 
+
+Episode 791: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.07864264026284218 
+
+Episode 792: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09751130640506744 
+
+Episode 793: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08066266775131226 
+
+Episode 794: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0916006937623024 
+
+Episode 795: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0889110118150711 
+
+Episode 796: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08445887267589569 
+
+Episode 797: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09302827715873718 
+
+Episode 798: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09476986527442932 
+
+Episode 799: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08868734538555145 
+
+Episode 800: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0877208411693573 
+
+Episode 801: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08598943054676056 
+
+Episode 802: Path: [(1, 6), (2, 6), (2, 7), (1, 7), (0, 7)]
+Total Reward: -0.81, Steps: 4, Avg TD Error: 0.08721009828150272 
+
+Episode 803: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09002339839935303 
+
+Episode 804: Path: [(1, 6), (2, 6), (1, 6), (0, 6)]
+Total Reward: -0.84, Steps: 3, Avg TD Error: 0.09738887846469879 
+
+Episode 805: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09217184782028198 
+
+Episode 806: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10521350800991058 
+
+Episode 807: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0924282819032669 
+
+Episode 808: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08906695991754532 
+
+Episode 809: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.11604596674442291 
+
+Episode 810: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09247948229312897 
+
+Episode 811: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07888887077569962 
+
+Episode 812: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08447352051734924 
+
+Episode 813: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09765836596488953 
+
+Episode 814: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10392706841230392 
+
+Episode 815: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0942983478307724 
+
+Episode 816: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08613608777523041 
+
+Episode 817: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10418794304132462 
+
+Episode 818: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07697521150112152 
+
+Episode 819: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08199429512023926 
+
+Episode 820: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09176436066627502 
+
+Episode 821: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07288184762001038 
+
+Episode 822: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10193267464637756 
+
+Episode 823: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08697544783353806 
+
+Episode 824: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09876351058483124 
+
+Episode 825: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07726385444402695 
+
+Episode 826: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08432739973068237 
+
+Episode 827: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.1002940684556961 
+
+Episode 828: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0882333517074585 
+
+Episode 829: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.08902046456933022 
+
+Episode 830: Path: [(1, 6), (1, 7), (0, 7)]
+Total Reward: -0.72, Steps: 2, Avg TD Error: 0.07132568955421448 
+
+Episode 831: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09596777707338333 
+
+Episode 832: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09403472393751144 
+
+Episode 833: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.06801631301641464 
+
+Episode 834: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09174174070358276 
+
+Episode 835: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10284924507141113 
+
+Episode 836: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08368584513664246 
+
+Episode 837: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07029014825820923 
+
+Episode 838: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08501935005187988 
+
+Episode 839: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08782485127449036 
+
+Episode 840: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09350857138633728 
+
+Episode 841: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09060482680797577 
+
+Episode 842: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08213736116886139 
+
+Episode 843: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.09109463915228844 
+
+Episode 844: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10283133387565613 
+
+Episode 845: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09117858111858368 
+
+Episode 846: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0820920467376709 
+
+Episode 847: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.060059741139411926 
+
+Episode 848: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10494914650917053 
+
+Episode 849: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08842557668685913 
+
+Episode 850: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09260208159685135 
+
+Episode 851: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08491365611553192 
+
+Episode 852: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09423576295375824 
+
+Episode 853: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08540862053632736 
+
+Episode 854: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09908244758844376 
+
+Episode 855: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09023843705654144 
+
+Episode 856: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09044264256954193 
+
+Episode 857: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08086859434843063 
+
+Episode 858: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08391925692558289 
+
+Episode 859: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07432787120342255 
+
+Episode 860: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09746001660823822 
+
+Episode 861: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08298119902610779 
+
+Episode 862: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.0967874825000763 
+
+Episode 863: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07860876619815826 
+
+Episode 864: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.10195782780647278 
+
+Episode 865: Path: [(1, 6), (1, 5), (0, 5)]
+Total Reward: -0.87, Steps: 2, Avg TD Error: 0.10081350430846214 
+
+Episode 866: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.09066142141819 
+
+Episode 867: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.08593948185443878 
+
+Episode 868: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07508274167776108 
+
+Episode 869: Path: [(1, 6), (0, 6)]
+Total Reward: -0.75, Steps: 1, Avg TD Error: 0.07935401797294617 
+

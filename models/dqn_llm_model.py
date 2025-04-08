@@ -122,6 +122,10 @@ class DQN_LLM_Model:
             # Obtain predicted Q-values from the main network
             predicted_Q = self.main_network(state_tensor)
             # Apply the context vector (element-wise addition) to the predicted Q-values
+
+            #the Q value has increased here, but that would lead to increase in getting Q value getting closer to the target Q value
+            # which might reduce the loss and cause gradient updates which are not very enough for the model to converge.
+            # solutions??
             predicted_Q = predicted_Q + context_vector
 
             predicted_Q_values.append(predicted_Q)
