@@ -3,11 +3,11 @@ from utils.logging_utils import log_training_data
 
 def run_training_loop(dqn_model, maze_env, num_episodes, max_steps, batch_size, target_update_freq):
     total_rewards = []
-    file_path = "training_log_llm_2.csv"
-    model_save_path = "model_final_trained_llm_2.pt"  # Path to save the model
+    file_path = "training_log_llm_3.csv"
+    model_save_path = "model_final_trained_llm_3.pt"  # Path to save the model
     best_reward = -float("inf")
     destination_count = 0
-
+    print("--------------------------------------------------")
     for episode in range(num_episodes):
         state = maze_env.reset()
         total_reward = 0
@@ -18,7 +18,7 @@ def run_training_loop(dqn_model, maze_env, num_episodes, max_steps, batch_size, 
             next_state, reward, done = maze_env.step(action)
             """Insert LLM Here"""
             dqn_model.remember(state, action, reward, next_state, done)
-
+            print("Step: ", step)
             if len(dqn_model.replay_buffer.buffer) >= batch_size:
                 td_error_sum += dqn_model.train(batch_size).item()
 
@@ -47,5 +47,6 @@ def run_training_loop(dqn_model, maze_env, num_episodes, max_steps, batch_size, 
             torch.save(dqn_model.main_network.state_dict(), model_save_path)
             print(f"New best reward {best_reward} achieved. Model saved at {model_save_path}.")
 
+        print("--------------------------------------------------")
     print(f"Model saved to {model_save_path}")
     return total_rewards

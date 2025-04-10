@@ -64,7 +64,7 @@ class LLMExperienceGenerator:
         # print("till here")
         # self.llm.to(self.device)
         # print("maybe issue here")
-
+        self.llm.config.pad_token_id = self.llm.config.eos_token_id
         # print("After model loading:")
         print(f"Allocated: {torch.cuda.memory_allocated() / 1024 ** 2:.2f} MB")
         print(f"Cached: {torch.cuda.memory_reserved() / 1024 ** 2:.2f} MB")
@@ -75,8 +75,8 @@ class LLMExperienceGenerator:
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         # print(f"Allocated: {torch.cuda.memory_allocated() / 1024 ** 2:.2f} MB")
         # print(f"Cached: {torch.cuda.memory_reserved() / 1024 ** 2:.2f} MB")
-        torch.cuda.empty_cache()
-        torch.cuda.memory_allocated()
+        # torch.cuda.empty_cache()
+        # torch.cuda.memory_allocated()
         # self.llm.to(device)
         inputs = self.tokenizer(prompt, return_tensors="pt").to(device)
         outputs = self.llm.generate(**inputs, do_sample=False, max_new_tokens = 30, temperature=0.1) # Reduce max_length since its generating less data now

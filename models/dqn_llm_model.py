@@ -98,7 +98,8 @@ class DQN_LLM_Model:
             llm_response = self.llm_generator.generate_experience(prompt)
             # print("LLM response: ", llm_response)
             context_vector = extract_context_vector(llm_response)
-            # print("context vector:", context_vector)
+            print(f"State : {state}, Action : {action}, Next State : {next_state}, Reward : {reward}")
+            print("context vector:", context_vector)
 
             # If extraction fails, default to a zero vector of appropriate size
             if context_vector is None:
